@@ -1,4 +1,4 @@
-package org.pesolutions;
+package org.pesolutions.solutions;
 
 import org.pesolutions.interfaces.ProjectEulerSolution;
 
