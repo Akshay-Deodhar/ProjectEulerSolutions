@@ -2,7 +2,8 @@ package org.pesolutions.solutions;
 
 import org.pesolutions.interfaces.ProjectEulerSolution;
 
-public class P0002 implements ProjectEulerSolution {
+//	Problem Source: https://projecteuler.net/problem=2
+public final class P0002 implements ProjectEulerSolution {
 
 	private final int MAX = 4_000_000;
 

@@ -2,7 +2,8 @@ package org.pesolutions.solutions;
 
 import org.pesolutions.interfaces.ProjectEulerSolution;
 
-public class P0003 implements ProjectEulerSolution {
+//	Problem Source: https://projecteuler.net/problem=3
+public final class P0003 implements ProjectEulerSolution {
 
 	private final long NBR = 600851475143L;
 

@@ -2,6 +2,7 @@ package org.pesolutions.solutions;
 
 import org.pesolutions.interfaces.ProjectEulerSolution;
 
+//	Problem Source: https://projecteuler.net/problem=1
 public final class P0001 implements ProjectEulerSolution {
 
 	public static void main(String[] args) {

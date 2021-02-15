@@ -6,9 +6,6 @@ import org.pesolutions.solutions.*;
 
 public final class ProjectEulerSolutionsTest {
 
-	/**
-	 * Test for Problem 1
-	 */
 	@Test
 	public void testP0001() {
 		assertEquals("233168", new P0001().execute());
@@ -24,4 +21,8 @@ public final class ProjectEulerSolutionsTest {
 		assertEquals("6857", new P0003().execute());
 	}
 	
+	@Test
+	public void testP0005() {
+		assertEquals("232792560", new P0005().execute());
+	}
 }
