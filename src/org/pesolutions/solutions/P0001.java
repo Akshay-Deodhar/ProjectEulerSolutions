@@ -2,10 +2,10 @@ package org.pesolutions.solutions;
 
 import org.pesolutions.interfaces.ProjectEulerSolution;
 
-public final class P001 implements ProjectEulerSolution {
+public final class P0001 implements ProjectEulerSolution {
 
 	public static void main(String[] args) {
-		System.out.println(new P001().execute());
+		System.out.println(new P0001().execute());
 	}
 
 	@Override

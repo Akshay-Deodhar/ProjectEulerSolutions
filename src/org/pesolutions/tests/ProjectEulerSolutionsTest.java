@@ -10,8 +10,12 @@ public final class ProjectEulerSolutionsTest {
 	 * Test for Problem 1
 	 */
 	@Test
-	public void testP001() {
-		assertEquals("233168", new P001().execute());
+	public void testP0001() {
+		assertEquals("233168", new P0001().execute());
 	}
 
+	@Test
+	public void testP0002() {
+		assertEquals("4613732", new P0002().execute());
+	}
 }
