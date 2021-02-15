@@ -18,4 +18,10 @@ public final class ProjectEulerSolutionsTest {
 	public void testP0002() {
 		assertEquals("4613732", new P0002().execute());
 	}
+	
+	@Test
+	public void testP0003() {
+		assertEquals("6857", new P0003().execute());
+	}
+	
 }
