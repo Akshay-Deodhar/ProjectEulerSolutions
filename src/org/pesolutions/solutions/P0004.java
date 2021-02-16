@@ -2,7 +2,7 @@ package org.pesolutions.solutions;
 
 import org.pesolutions.interfaces.ProjectEulerSolution;
 
-//	Problem Source: https://projecteuler.net/problem=XX
+//	Problem Source: https://projecteuler.net/problem=4
 public final class P0004 implements ProjectEulerSolution {
 
 	public static void main(String[] args) {
@@ -15,8 +15,8 @@ public final class P0004 implements ProjectEulerSolution {
 		int max = Integer.MIN_VALUE;
 		for (int i = 100; i < 1000; i++) {
 			for (int j = 100; j < 1000; j++) {
-				prod = i*j;
-				if(isPalindrome(prod)) {
+				prod = i * j;
+				if (isPalindrome(prod)) {
 					max = Math.max(max, prod);
 				}
 			}
