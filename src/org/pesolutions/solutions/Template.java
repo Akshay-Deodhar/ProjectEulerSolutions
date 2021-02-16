@@ -11,7 +11,6 @@ public final class Template implements ProjectEulerSolution {
 
 	@Override
 	public String execute() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 

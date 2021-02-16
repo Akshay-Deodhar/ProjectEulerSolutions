@@ -26,11 +26,11 @@ public final class P0003 implements ProjectEulerSolution {
 			return 2L;
 		}
 		long divisor = 1L;
-		while(nbr > 1) {
+		while (nbr > 1) {
 			divisor += 2;
-			if(nbr%divisor == 0) {
-				while(nbr%divisor == 0) {
-					nbr = nbr/divisor;
+			if (nbr % divisor == 0) {
+				while (nbr % divisor == 0) {
+					nbr = nbr / divisor;
 				}
 			}
 		}
