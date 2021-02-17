@@ -36,4 +36,9 @@ public final class ProjectEulerSolutionsTest {
 		assertEquals("25164150", new P0006().execute());
 	}
 
+	@Test
+	public void testP0007() {
+		assertEquals("104743", new P0007().execute());
+	}
+
 }
